@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.image{
+  width: 100%;
+  margin-top: 100px;
+  height: auto;
+  /* position: relative; */
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-image:linear-gradient(to top right, rgba(245,169, 32, 1), rgba(245,169, 32, .5)), url("https://www.pngkit.com/png/detail/909-9098186_free-png-download-child-group-play-png-images.png");
+  /* background-color: gold; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.image h3{
   color: white;
+  /* margin-top: 20em; */
+  font-size: 40px;
+  padding-left: 40px;
+  padding-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.image p{
+  color: white;
+  /* margin-top: 20em; */
+ 
+  padding-left: 40px;
+  /* padding-top: 40px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+
+.border-text{
+  /* z-index: -1; */
+  position: absolute;
+  
+  background-color: rgba(255,255,255,.5);
+  border-radius: 0px 30px 30px 0px;
+  margin-top: 13rem;
+  border-width: 20px;
+  padding-left: 10px;
+  /* border:2px solid white; */
+  width: 15em;
+  /* text-align: center; */
+}
+
+.border-text2{
+  /* z-index: -1; */
+  position: absolute;
+ 
+  background-color: rgba(255,255,255,.5);
+  border-radius: 0px 30px 30px 0px;
+  margin-top: 20rem;
+  border-width: 20px;
+  padding-left: 10px;
+  /* border:2px solid white; */
+  width: 15em;
+  /* text-align: center; */
+}
+
+
+.space{
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px){
+  .border-text,
+  .border-text2{
+    display: none;
   }
 }
