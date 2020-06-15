@@ -36,16 +36,27 @@ class App extends Component {
          <div className="image" > 
           {/* <img src="https://www.pngkit.com/png/detail/909-9098186_free-png-download-child-group-play-png-images.png" /> */}
             <h3>Lorem Ipsum doler sit amet</h3>
-            <p>Lorem Ipsum doler sit amet <br />Lorem Ipsum doler sit amet</p>
+            <p>Lorem Ipsum doler sit amet <br />Lorem Ipsum doler sit amet Lorem Ipsum doler sit amet 
+            Lorem Ipsum doler sit amet <br/>Lorem Ipsum doler sit amet Lorem Ipsum doler sit amet <br/>
+            Lorem Ipsum doler sit amet Lorem Ipsum doler sit amet Lorem Ipsum doler sit amet <br/>
+            Lorem Ipsum doler sit amet Lorem Ipsum doler sit amet <br/>
+            
+            
+            
+            </p>
            
            <div className="border-text">
-           <p >Lorem Ipsum doler sit amet <br />Lorem Ipsum doler sit amet</p>          
+          Lorem Ipsum doler sit amet <br />Lorem Ipsum doler sit amet          
+           <br/>
+           <i className="brtext-fa fa fa-star icon-star2" />
+            <i className="brtext-fa fa fa-star icon-star2" />
+            <i className="brtext-fa fa fa-star icon-star2" />
+            <i className="brtext-fa fa fa-star icon-star2" />
+            <i className="brtext-fa fa fa-star icon-star2" />
+            
            </div>
 
-           <div className="border-text2">
-           <p >Lorem Ipsum doler sit amet <br />Lorem Ipsum doler sit amet</p>          
-           </div> 
-          
+           
             <Form />
          <div className="space"></div>
           

@@ -20,6 +20,13 @@ const Form = () => {
         <input type="text" className="input" placeholder="Enter your Card Number" />
         <i className="fa fa-credit-card"></i>
       </div>
+      <div className="space">
+      <label className="label">On/Off</label>
+      <label class="switch">
+        <input type="checkbox" />
+        <span class="slider round"></span>
+      </label>
+      </div>
       <div className="card-grp space">
         <div className="card-item icon-relative">
           <label className="label">Expiry date:</label>

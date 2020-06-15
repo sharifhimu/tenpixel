@@ -17,6 +17,9 @@ const sideDrawer = props => {
           <a href="/">Contact Us</a>
         </li>
         <li>
+          <a href="/">Sell</a>
+        </li>
+        <li>
           {/* <a href="/">Products</a> */}
           <div className="dropdown">
                 <button className="dropbtn">Products</button>
